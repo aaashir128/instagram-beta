@@ -1,0 +1,44 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.post__header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding: 15px;
+}
+.post__header > h4{
+    margin-left: 10px   ;
+}
+
+.postImg{
+ width: 100%;
+ object-fit: contain;   
+}
+
+.post__caption{
+    padding: 20px;
+
+}
+.commentDate{
+    font-size: x-small;
+}
+
+.commentForm{
+    display: flex;
+}
+.commentInput{
+    flex: 1;
+    margin: 5px;
+}
+.commentButton{
+    flex: 0;
+}

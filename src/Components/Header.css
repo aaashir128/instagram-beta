@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    height: 60px;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.header__search{
+    background-color: transparent;
+
+}
+.header__searchInput{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+.header__searchInput:focus{
+    outline: none;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header__right > .MuiSvgIcon-root{
+    margin-left: 5px;
+    margin-right: 5px;
+}
